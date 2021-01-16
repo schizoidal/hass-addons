@@ -1,0 +1,22 @@
+{
+  "name": "RTL433",
+  "version": "0.1",
+  "slug": "rtl433",
+  "description": "Software defined radio receiver interface for Homeassistant",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "services": ["mqtt:need"],
+  "options": {
+    "frequency": 910000000,
+    "devices": "rtl_433/devices[/type][/model][/subtype][/channel][/id]"
+  },
+  "schema": 
+  {
+    "frequency": "float",
+    "devices": "str"
+  }
+  "devices": [
+    "/dev/bus/usb:/dev/bus/usb:rwm"
+  ]
+}
