@@ -15,7 +15,7 @@
   {
     "frequency": "float",
     "devices": "str"
-  }
+  },
   "devices": [
     "/dev/bus/usb:/dev/bus/usb:rwm"
   ]
