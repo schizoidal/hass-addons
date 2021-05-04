@@ -1,7 +1,8 @@
 {
   "name": "RTL433",
-  "version": "0.1",
+  "version": "0.2",
   "slug": "rtl433",
+  "url": "https://github.com/schizoidal/hass-addons/tree/main/rtl433",
   "description": "Software defined radio receiver interface for Homeassistant",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
@@ -16,7 +17,5 @@
     "frequency": "float",
     "devices": "str"
   },
-  "devices": [
-    "/dev/bus/usb:/dev/bus/usb:rwm"
-  ]
+  "usb": true
 }
