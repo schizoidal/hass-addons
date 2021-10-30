@@ -1,6 +1,6 @@
 {
   "name": "RTL433",
-  "version": "0.2",
+  "version": "0.3",
   "slug": "rtl433",
   "url": "https://github.com/schizoidal/hass-addons/tree/main/rtl433",
   "description": "Software defined radio receiver interface for Homeassistant",
